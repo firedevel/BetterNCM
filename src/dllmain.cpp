@@ -171,7 +171,7 @@ BOOL WINAPI DllMain(HMODULE hModule, DWORD dwReason, PVOID pvReserved) {
 					datapath = util::getEnvironment("BETTERNCM_PROFILE");
 				}
 				else {
-					datapath = "C:\\betterncm"; // 不再向前兼容
+					datapath = "D:\\betterncm"; // 不再向前兼容
 				}
 
 				if (process_type == Main) {
